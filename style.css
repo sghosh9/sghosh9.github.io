@@ -33,3 +33,17 @@ input[type="checkbox"] {
   margin: 5px 10px 5px 0;
   vertical-align: middle;
 }
+
+.submit {
+  margin-bottom: 20px;
+  text-align: center;
+}
+button {
+  border-radius: 4px;
+  background-color: rgb(103, 58, 183);
+  padding: 10px 30px;
+  color: white;
+  box-shadow: none;
+  border: none;
+  font-size: 15px;
+}
