@@ -21,7 +21,6 @@ form {
 
 .person {
   display: flex;
-  margin-bottom: ;
 }
 input[type="name"], input[type="email"] {
   border: 2px solid #868686;
