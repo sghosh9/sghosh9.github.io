@@ -7,7 +7,7 @@
 <body>
     <form 
       method="POST" 
-      action="https://script.google.com/a/macros/innoraft.com/s/AKfycbycoKLZtUCw1PrspzpmkyAVQi2jneZ3PLOgIrDp0yzU-Q4EP_haAyO6zyQX9NRtoDwy/exec"
+      action="https://script.google.com/a/macros/innoraft.com/s/AKfycbwRqIgg1RnV31QRUKbCLZwSSY92cDcOt4KRdADNjxahX3kf6mtIWKj5sHlTytxdVA19/exec"
     >
       <div class="person eleGroup">
         <input name="Name" type="text" placeholder="Name" required>
@@ -16,10 +16,157 @@
       <div class="checklist">
         <div class="basicTech eleGroup">
           <h2>BASIC</h2>
-          <input type="checkbox" name="basic" value="0" /><strong>Basic site settings</strong><br />
-          <input type="checkbox" name="basic" value="1" />Set the sitename, slogan, site email<br />
-          <input type="checkbox" name="basic" value="2" />Setting the default home page<br />
-          <input type="checkbox" name="basic" value="3" />Settings the error pages - 403 and 404 page.<br />
+          <input type="checkbox" name="siteSet" value="0" /><strong>Basic site settings</strong><br />
+          <input type="checkbox" name="siteSet" value="1" />Set the sitename, slogan, site email<br />
+          <input type="checkbox" name="siteSet" value="2" />Setting the default home page<br />
+          <input type="checkbox" name="siteSet" value="3" />Settings the error pages - 403 and 404 page.<br />
+          <input type="checkbox" name="pageMgmt" value="0" /><strong>Basic page management</strong><br />
+          <input type="checkbox" name="themeSet" value="0" /><strong>Theme settings</strong><br />
+          <input type="checkbox" name="themeSet" value="1" />Change logo<br />
+          <input type="checkbox" name="themeSet" value="2" />Change favicon<br />
+          <input type="checkbox" name="themeSet" value="3" />Different theme for admin<br />
+          <input type="checkbox" name="themeSet" value="4" />Installing and using a new theme from Drupal.org<br />
+          <input type="checkbox" name="adminTheme" value="0" /><strong>Installation of the Adminimal theme</strong><br />
+          <input type="checkbox" name="alias" value="0" /><strong>Path alias & Redirect</strong><br />
+          <input type="checkbox" name="alias" value="1" />Set path alias of a page<br />
+          <input type="checkbox" name="alias" value="2" />Change the path alias of a page<br />
+          <input type="checkbox" name="alias" value="3" />Multiple aliases of same path<br />
+          <input type="checkbox" name="alias" value="4" />Alias patterns<br />
+          <input type="checkbox" name="modInstUnst" value="0" /><strong>Installing/Uninstalling modules</strong><br />
+          <input type="checkbox" name="contentType" value="0" /><strong>Content types</strong><br />
+          <input type="checkbox" name="contentType" value="1" />Create a new content type<br />
+          <input type="checkbox" name="contentType" value="2" />Add fields to the content type<br />
+          <input type="checkbox" name="contentType" value="3" />Add an existing field to the content type<br />
+          <input type="checkbox" name="contentType" value="4" />Create a content page of type Basic<br />
+          <input type="checkbox" name="contentType" value="5" />Edit a content page<br />
+          <input type="checkbox" name="menu" value="0" /><strong>Menu</strong><br />
+          <input type="checkbox" name="menu" value="1" />Create a new menu<br />
+          <input type="checkbox" name="menu" value="2" />Add menu links in a menu<br />
+          <input type="checkbox" name="menu" value="3" />Change ordering of links in a menu<br />
+          <input type="checkbox" name="menu" value="4" />Edit menu link to change name and url<br />
+          <input type="checkbox" name="menu" value="5" />Menu link tooltip<br />
+          <input type="checkbox" name="menu" value="6" />Move menu link from one menu to another<br />
+          <input type="checkbox" name="menu" value="7" />Create a content and directly add it to a menu<br />
+          <input type="checkbox" name="block" value="0" /><strong>Blocks</strong><br />
+          <input type="checkbox" name="block" value="1" />Move an existing block to a new position<br />
+          <input type="checkbox" name="block" value="2" />Create and place a custom block on homepage and /about page<br />
+          <input type="checkbox" name="block" value="3" />Create and place a custom block on basic type nodes<br />
+          <input type="checkbox" name="block" value="4" />Create and place a custom block on all pages visible only to authenticated users<br />
+          <input type="checkbox" name="block" value="5" />Create and place a custom block on all pages except of content type basic<br />
+          <input type="checkbox" name="block" value="6" />Create and place a custom block<br />
+          <input type="checkbox" name="block" value="7" />Create a block type with different fields and create a block of this type<br />
+          <input type="checkbox" name="vocab" value="0" /><strong>Vocabulary</strong><br />
+          <input type="checkbox" name="vocab" value="1" />Create a vocabulary<br />
+          <input type="checkbox" name="vocab" value="2" />Add taxonomy field in a content type<br />
+          <input type="checkbox" name="vocab" value="3" />Add free tagging taxonomy field in a content type<br />
+          <input type="checkbox" name="userMgmt" value="0" /><strong>User mangement</strong><br />
+          <input type="checkbox" name="userMgmt" value="1" />Create new user<br />
+          <input type="checkbox" name="userMgmt" value="2" />Edit existing user<br />
+          <input type="checkbox" name="userMgmt" value="3" />Block/unblock user<br />
+          <input type="checkbox" name="userMgmt" value="4" />Add new field to user account<br />
+          <input type="checkbox" name="userMgmt" value="5" />Role and permissions<br />
+          <input type="checkbox" name="userMgmt" value="6" />What is the user ID, username, email, password?<br />
+          <input type="checkbox" name="userMgmt" value="7" />Who is user/1?<br />
+          <input type="checkbox" name="userMgmt" value="8" />Who is user/0?<br />
+          <input type="checkbox" name="views" value="0" />Configure emails for account creation, blocked, cancellation, password recovery<br />
+          <input type="checkbox" name="views" value="1" /><strong>Views</strong><br />
+          <input type="checkbox" name="views" value="2" />View of content, taxonomy, users, etc.<br />
+          <input type="checkbox" name="views" value="3" />Different types of displays like page, block, etc<br />
+          <input type="checkbox" name="views" value="4" />Different types of formats like table, grid, list, etc.<br />
+          <input type="checkbox" name="views" value="5" />Filters, rearrange, combine with AND and OR<br />
+          <input type="checkbox" name="views" value="6" />Sort<br />
+          <input type="checkbox" name="views" value="7" />Pager<br />
+          <input type="checkbox" name="views" value="8" />No results behaviour<br />
+          <input type="checkbox" name="views" value="9" />access permissions<br />
+          <input type="checkbox" name="views" value="10" />Contextual filters<br />
+          <input type="checkbox" name="views" value="11" />Relationships<br />
+          <input type="checkbox" name="views" value="12" />Tabbed lists<br />
+          <input type="checkbox" name="views" value="13" />Limit and offset<br />
+          <input type="checkbox" name="views" value="14" />Summary of total count and on page<br />
+          <input type="checkbox" name="views" value="15" />Grouped results<br />
+          <input type="checkbox" name="views" value="16" />Exposed form<br />
+          <input type="checkbox" name="lang" value="0" />Ajax<br />
+          <input type="checkbox" name="lang" value="1" /><strong>Language and Regional</strong><br />
+          <input type="checkbox" name="lang" value="2" />Enable new languages<br />
+          <input type="checkbox" name="lang" value="3" />Enable RTL language<br />
+          <input type="checkbox" name="lang" value="4" />translator widget<br />
+          <input type="checkbox" name="lang" value="5" />Menu translation<br />
+          <input type="checkbox" name="entityRef" value="0" />Content translation<br />
+          <input type="checkbox" name="configMgmt" value="0" /><strong>Entity reference</strong><br />
+          <input type="checkbox" name="configMgmt" value="1" /><strong>Configuration Management</strong><br />
+          <input type="checkbox" name="configMgmt" value="2" />import<br />
+          <input type="checkbox" name="configMgmt" value="3" />export<br />
+          <input type="checkbox" name="configMgmt" value="4" />sync<br />
+          <input type="checkbox" name="configMgmt" value="5" />single<br />
+          <input type="checkbox" name="configMgmt" value="6" />full site<br />
+          Config Ignore<br />
+          Config Split<br />
+          <strong>Custom development</strong><br />
+          <input type="checkbox" name="vsc" value="0" /><strong>Visual Studio Code</strong><br />
+          <input type="checkbox" name="drush" value="0" /><strong>Drush</strong><br />
+          <input type="checkbox" name="drush" value="1" />clear-cache<br />
+          <input type="checkbox" name="drush" value="2" />theme and module install<br />
+          <input type="checkbox" name="drush" value="3" />theme and module uninstall<br />
+          <input type="checkbox" name="drush" value="4" />config export<br />
+          <input type="checkbox" name="drush" value="5" />config import<br />
+          <input type="checkbox" name="drush" value="6" />feature revert<br />
+          <input type="checkbox" name="drush" value="7" />feature update<br />
+          <input type="checkbox" name="drush" value="8" />create new admin user<br />
+          <input type="checkbox" name="drush" value="9" />reset password<br />
+          <input type="checkbox" name="drush" value="10" />generate one time login link<br />
+          <input type="checkbox" name="drush" value="11" />update db<br />
+          <input type="checkbox" name="drush" value="12" />project status<br />
+          <input type="checkbox" name="drush" value="13" />cron<br />
+          <input type="checkbox" name="drush" value="14" />connect to drupal DB<br />
+          <input type="checkbox" name="drush" value="15" />check logs<br />
+          <input type="checkbox" name="hooks" value="0" /><strong>Hooks</strong><br />
+          <input type="checkbox" name="infoMod" value="0" /><strong>info.yaml - module</strong><br />
+          <input type="checkbox" name="infoTheme" value="0" /><strong>info.yaml - theme</strong><br />
+          <input type="checkbox" name="controllers" value="0" /><strong>Controllers</strong><br />
+          <input type="checkbox" name="formAPI" value="0" /><strong>Form API</strong><br />
+          <input type="checkbox" name="formAPI" value="1" />configuration forms<br />
+          <input type="checkbox" name="formAPI" value="2" />simple forms<br />
+          <input type="checkbox" name="formAPI" value="3" />Form alter<br />
+          <input type="checkbox" name="formAPI" value="4" />validation<br />
+          <input type="checkbox" name="formAPI" value="5" />submission<br />
+          <input type="checkbox" name="formAPI" value="6" />Form ajax<br />
+          <input type="checkbox" name="customBlock" value="0" /><strong>Custom Blocks</strong><br />
+          <input type="checkbox" name="customFilter" value="0" /><strong>Custom text filter</strong><br />
+          <input type="checkbox" name="customPlugin" value="0" /><strong>Custom plugin type</strong><br />
+          <input type="checkbox" name="viewsAPI" value="0" /><strong>Views API</strong><br />
+          <input type="checkbox" name="viewsAPI" value="1" />Hooks<br />
+          <input type="checkbox" name="theming" value="0" /><strong>Theming</strong><br />
+          <input type="checkbox" name="theming" value="1" />twig - syntax delimiters, arrays and objects, loops and iterators, filters and functions<br />
+          <input type="checkbox" name="modules" value="0" /><strong>Important modules</strong><br />
+          <input type="checkbox" name="modules" value="1" />Layout Builder<br />
+          <input type="checkbox" name="modules" value="2" />Paragraphs<br />
+          <input type="checkbox" name="modules" value="3" />Image Effects<br />
+          <input type="checkbox" name="modules" value="4" />Devel<br />
+          <input type="checkbox" name="modules" value="5" />Admin Toolbar<br />
+          <input type="checkbox" name="modules" value="6" />Twig Tweaks<br />
+          <input type="checkbox" name="modules" value="7" />Responsive image<br />
+          <input type="checkbox" name="modules" value="8" />Default Content<br />
+          <input type="checkbox" name="modules" value="9" />Webform<br />
+          <input type="checkbox" name="modules" value="10" />Pathauto<br />
+          <input type="checkbox" name="modules" value="11" />Redirect<br />
+          <input type="checkbox" name="modules" value="12" />Field Group<br />
+          <input type="checkbox" name="modules" value="13" />Advance Aggregation<br />
+          <input type="checkbox" name="modules" value="14" />GTM / Google Analytics<br />
+          <input type="checkbox" name="git" value="0" /><strong>Git</strong><br />
+          <input type="checkbox" name="git" value="1" />workflow<br />
+          <input type="checkbox" name="git" value="2" />branching (https://learngitbranching.js.org/)<br />
+          <input type="checkbox" name="git" value="3" />commit & correct way to write a GIT commit<br />
+          <input type="checkbox" name="git" value="4" />resolve merge conflict<br />
+          <input type="checkbox" name="git" value="5" />push vs pull vs fetch<br />
+          <input type="checkbox" name="git" value="6" />pull or merge request<br />
+          <input type="checkbox" name="git" value="7" />Downstream & Upstream<br />
+          <input type="checkbox" name="git" value="8" />initialize git in a project<br />
+          <input type="checkbox" name="git" value="9" />clone vs fork<br />
+          <input type="checkbox" name="git" value="10" />rebase<br />
+          <input type="checkbox" name="git" value="11" />cherry-pick<br />
+          <input type="checkbox" name="git" value="12" />merge-tool<br />
+          <input type="checkbox" name="git" value="13" />squash<br />
+          <input type="checkbox" name="git" value="14" />.gitignore<br />
 
         </div>
 
